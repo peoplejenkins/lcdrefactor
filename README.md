@@ -10,7 +10,16 @@ Entre cada impresión debe haber una línea blanca.
 
 ## Uso
 
+### Docker way
+
+```bash
+docker pull xxdrackleroxx/psl-printer:1.0
+docker run --rm -it xxdrackleroxx/psl-printer:1.0
 ```
+
+### Regular usage
+```
+$ git clone https://github.com/AmauryOrtega/lcdrefactor.git
 $ python main.py
     LCD_Printer
     @author: Amaury Ortega <amauryocortega@gmail.com>
@@ -105,11 +114,4 @@ Input: 1,2123
 Input: 0,0
 Thanks for using this software
 
-```
-
-## Docker way
-
-```bash
-docker pull xxdrackleroxx/psl-printer:1.0
-docker run --rm -it xxdrackleroxx/psl-printer:1.0
 ```
