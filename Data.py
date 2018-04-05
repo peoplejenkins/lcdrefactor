@@ -1,0 +1,75 @@
+HORIZONTAL = '-'
+VERTICAL = '|'
+BLANK = ' '
+DIGITS_STRUCTURE = {
+    0: {
+        "TOP": [BLANK, HORIZONTAL, BLANK],
+        "FILL1": [VERTICAL, BLANK, VERTICAL],
+        "MID": [BLANK, BLANK, BLANK],
+        "FILL2": [VERTICAL, BLANK, VERTICAL],
+        "BOT": [BLANK, HORIZONTAL, BLANK]
+    },
+    1: {
+        "TOP": [BLANK, BLANK, BLANK],
+        "FILL1": [BLANK, BLANK, VERTICAL],
+        "MID": [BLANK, BLANK, BLANK],
+        "FILL2": [BLANK, BLANK, VERTICAL],
+        "BOT": [BLANK, BLANK, BLANK]
+    },
+    2: {
+        "TOP": [BLANK, HORIZONTAL, BLANK],
+        "FILL1": [BLANK, BLANK, VERTICAL],
+        "MID": [BLANK, HORIZONTAL, BLANK],
+        "FILL2": [VERTICAL, BLANK, BLANK],
+        "BOT": [BLANK, HORIZONTAL, BLANK]
+    },
+    3: {
+        "TOP": [BLANK, HORIZONTAL, BLANK],
+        "FILL1": [BLANK, BLANK, VERTICAL],
+        "MID": [BLANK, HORIZONTAL, BLANK],
+        "FILL2": [BLANK, BLANK, VERTICAL],
+        "BOT": [BLANK, HORIZONTAL, BLANK]
+    },
+    4: {
+        "TOP": [BLANK, BLANK, BLANK],
+        "FILL1": [VERTICAL, BLANK, VERTICAL],
+        "MID": [BLANK, HORIZONTAL, BLANK],
+        "FILL2": [BLANK, BLANK, VERTICAL],
+        "BOT": [BLANK, BLANK, BLANK]
+    },
+    5: {
+        "TOP": [BLANK, HORIZONTAL, BLANK],
+        "FILL1": [VERTICAL, BLANK, BLANK],
+        "MID": [BLANK, HORIZONTAL, BLANK],
+        "FILL2": [BLANK, BLANK, VERTICAL],
+        "BOT": [BLANK, HORIZONTAL, BLANK]
+    },
+    6: {
+        "TOP": [BLANK, HORIZONTAL, BLANK],
+        "FILL1": [VERTICAL, BLANK, BLANK],
+        "MID": [BLANK, HORIZONTAL, BLANK],
+        "FILL2": [VERTICAL, BLANK, VERTICAL],
+        "BOT": [BLANK, HORIZONTAL, BLANK]
+    },
+    7: {
+        "TOP": [BLANK, HORIZONTAL, BLANK],
+        "FILL1": [BLANK, BLANK, VERTICAL],
+        "MID": [BLANK, BLANK, BLANK],
+        "FILL2": [BLANK, BLANK, VERTICAL],
+        "BOT": [BLANK, BLANK, BLANK]
+    },
+    8: {
+        "TOP": [BLANK, HORIZONTAL, BLANK],
+        "FILL1": [VERTICAL, BLANK, VERTICAL],
+        "MID": [BLANK, HORIZONTAL, BLANK],
+        "FILL2": [VERTICAL, BLANK, VERTICAL],
+        "BOT": [BLANK, HORIZONTAL, BLANK]
+    },
+    9: {
+        "TOP": [BLANK, HORIZONTAL, BLANK],
+        "FILL1": [VERTICAL, BLANK, VERTICAL],
+        "MID": [BLANK, HORIZONTAL, BLANK],
+        "FILL2": [BLANK, BLANK, VERTICAL],
+        "BOT": [BLANK, HORIZONTAL, BLANK]
+    }
+}
