@@ -1,20 +1,20 @@
 pipeline {
-  agent {
-    dockerfile {
-      filename 'Dockerfile'
-    }
-
-  }
+  agent any
   stages {
     stage('Construyendo imagen') {
+      agent {
+        dockerfile {
+          filename 'Dockerfile'
+        }
+
+      }
       steps {
         echo 'Mensaje dentro de contenedor'
       }
     }
-    stage('limpiando docker') {
-      agent any
+    stage('Como quedo docker host') {
       steps {
-        sh 'docker images -a'
+        sh 'docker ps -a;docker images -a'
       }
     }
   }
