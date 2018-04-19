@@ -14,7 +14,7 @@ pipeline {
     stage('limpiando docker') {
       agent any
       steps {
-        sh 'docker rmi $(docker images -q -f dangling=true);'
+        sh 'docker images -a'
       }
     }
   }
