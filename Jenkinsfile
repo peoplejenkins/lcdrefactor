@@ -9,7 +9,7 @@ pipeline {
     stage('Construyendo imagen') {
       steps {
         echo 'Mensaje dentro de contenedor'
-        sh 'uname -a;ps -a'
+        sh 'uname -a;ps -a;ls -alh'
       }
     }
   }
