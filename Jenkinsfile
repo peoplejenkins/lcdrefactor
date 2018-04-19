@@ -9,7 +9,12 @@ pipeline {
     stage('Construyendo imagen') {
       steps {
         echo 'Mensaje dentro de contenedor'
-        sh 'uname -a;ps -a;ls -alh'
+      }
+    }
+    stage('limpiando docker') {
+      agent any
+      steps {
+        sh 'docker rmi $(docker images -q -f dangling=true);'
       }
     }
   }
