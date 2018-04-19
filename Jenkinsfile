@@ -10,7 +10,8 @@ pipeline {
       }
       steps {
         echo 'Mensaje dentro de contenedor'
-        sh 'python main.py <<0,0EOF'
+        readFile 'Data.py'
+        sh 'uname -a'
       }
     }
     stage('Como quedo docker host') {
